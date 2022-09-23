@@ -1,0 +1,1162 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		F8ADC34FF8B348CD968F6B33 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8CA3668974084E34A196EF1E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				A5FDDD0D62C2FC58A55C476E /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				DA50F13D49084BE79AAE2AB0 /* PBXTargetDependency */,
+				7BAF5B4A259549F2BD85A0D8 /* PBXTargetDependency */,
+				9D4E6FAAC350474AB0E89026 /* PBXTargetDependency */,
+				EE922D2DDCD24B709F007CF2 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		FAC5CFF372304DB08A641B1F /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1BF23F179EB44A76BCB35DF0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				6453BE91368CE4538DC0CA32 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		54CDF47D40434F4A869D248D /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/tests/studentTests.cpp */ = {isa = PBXBuildFile; fileRef = 20328C5696DA412E9C625E41 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/tests/studentTests.cpp */; };
+		589385EA0BDE410AACC86C42 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/hero.cpp */ = {isa = PBXBuildFile; fileRef = 9F53CB6646594AFA9FD65437 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/hero.cpp */; };
+		8A38412C132D450F8D7B2B1D /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/tests/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CEDE4B7545D14562A0E691C8 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/tests/CMakeLists.txt */; };
+		9EFD764A5C6A446BB3D7793C /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1ED7C79DC2C04EF8B2D73BF2 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/CMakeLists.txt */; };
+		A8D1B2316DAB49FDABAED100 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/fight.h */ = {isa = PBXBuildFile; fileRef = 22435B70FA044772A6133BC6 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/fight.h */; };
+		B45AB09B862347439BAF8154 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/tests/Catch.cpp */ = {isa = PBXBuildFile; fileRef = CFBB1185F79F4CA1A2411C97 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/tests/Catch.cpp */; };
+		B7EA1A0D8E5645AA84FDD94E /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/powers.h */ = {isa = PBXBuildFile; fileRef = 9CC1D103EE8146E4AD51BFFC /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/powers.h */; };
+		BB57E3ECF4A14217A71E423A /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 19A9EB5EA3504CD688CCE7AC /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/CMakeLists.txt */; };
+		BEAE6BECF63842F4837FCFD3 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/hero.h */ = {isa = PBXBuildFile; fileRef = 10554E6F6A484D418AE39016 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/hero.h */; };
+		C707D51E097B4F6799F013BE /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/main.cpp */ = {isa = PBXBuildFile; fileRef = FA02CB5DBCBB4CE5B06C4A0D /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/main.cpp */; };
+		CFA1EE70BD0B4D9AA15FE34C /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/powers.cpp */ = {isa = PBXBuildFile; fileRef = 3350854F9276407F80E450AE /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/powers.cpp */; };
+		D84237FFB225435B86CA5E62 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/strlib.cpp */ = {isa = PBXBuildFile; fileRef = 89D4D5F935E948968FFDB626 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/strlib.cpp */; };
+		E478CAD71E714BE18D7E026B /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/strlib.h */ = {isa = PBXBuildFile; fileRef = BA6E2A09D40F494AB15808F8 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/strlib.h */; };
+		F9B6DED3D14A4AFF864DA1F9 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/fight.cpp */ = {isa = PBXBuildFile; fileRef = A62BA044D480463A894AB86F /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/fight.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		4F0BE780B58F464CAADF1CCE /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		A2BC0C5B3E084A148B70724E /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		BFE467908858494EA4FA6D49 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		D4A407AD0EAD4E119FD0EA0A /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		350529368E494058BCF1E2D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1980A707AB5E49A9AEB61251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC5CFF372304DB08A641B1F;
+			remoteInfo = ZERO_CHECK;
+		};
+		45536FD57940429097D3B258 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1980A707AB5E49A9AEB61251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC5CFF372304DB08A641B1F;
+			remoteInfo = ZERO_CHECK;
+		};
+		5438882B98314254AB2354B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1980A707AB5E49A9AEB61251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDC5949748A34C0DB3F671BB;
+			remoteInfo = tests;
+		};
+		585F9D12E41D4CBBA41D97BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1980A707AB5E49A9AEB61251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF160123F27642D9A8AFF889;
+			remoteInfo = src;
+		};
+		88FF9C89F1A148C7AB8460CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1980A707AB5E49A9AEB61251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC5CFF372304DB08A641B1F;
+			remoteInfo = ZERO_CHECK;
+		};
+		90E0D050A4E542F3AEE1CD6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1980A707AB5E49A9AEB61251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF160123F27642D9A8AFF889;
+			remoteInfo = src;
+		};
+		A1E3D36B137948DBBFC917E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1980A707AB5E49A9AEB61251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B842CF4B17F14BF7995F7E80;
+			remoteInfo = main;
+		};
+		B5BCB1187F0D4FAE861C4793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1980A707AB5E49A9AEB61251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC5CFF372304DB08A641B1F;
+			remoteInfo = ZERO_CHECK;
+		};
+		CD036E0103DD4376971BA685 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1980A707AB5E49A9AEB61251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF160123F27642D9A8AFF889;
+			remoteInfo = src;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10554E6F6A484D418AE39016 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/hero.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hero.h; path = src/hero.h; sourceTree = SOURCE_ROOT; };
+		19A9EB5EA3504CD688CCE7AC /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1ED7C79DC2C04EF8B2D73BF2 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		20328C5696DA412E9C625E41 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/tests/studentTests.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = studentTests.cpp; path = tests/studentTests.cpp; sourceTree = SOURCE_ROOT; };
+		22435B70FA044772A6133BC6 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/fight.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fight.h; path = src/fight.h; sourceTree = SOURCE_ROOT; };
+		3350854F9276407F80E450AE /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/powers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = powers.cpp; path = src/powers.cpp; sourceTree = SOURCE_ROOT; };
+		388890D351E24DEF89B9FC84 /* tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = tests; sourceTree = BUILT_PRODUCTS_DIR; };
+		89D4D5F935E948968FFDB626 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/strlib.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = strlib.cpp; path = src/strlib.cpp; sourceTree = SOURCE_ROOT; };
+		9CC1D103EE8146E4AD51BFFC /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/powers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = powers.h; path = src/powers.h; sourceTree = SOURCE_ROOT; };
+		9F53CB6646594AFA9FD65437 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/hero.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hero.cpp; path = src/hero.cpp; sourceTree = SOURCE_ROOT; };
+		A25F8D7479C0435AB52EF8CB /* src */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libsrc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62BA044D480463A894AB86F /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/fight.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fight.cpp; path = src/fight.cpp; sourceTree = SOURCE_ROOT; };
+		BA6E2A09D40F494AB15808F8 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/strlib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = strlib.h; path = src/strlib.h; sourceTree = SOURCE_ROOT; };
+		BAA67AF7081C4D34B19EC460 /* main */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = main; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDE4B7545D14562A0E691C8 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/tests/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = tests/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CFBB1185F79F4CA1A2411C97 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/tests/Catch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Catch.cpp; path = tests/Catch.cpp; sourceTree = SOURCE_ROOT; };
+		F43DA416FCAD4FAFAE4B4BD3 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FA02CB5DBCBB4CE5B06C4A0D /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08A8D48A86EB458A965CD950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF567571BEB4B83A8695F33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844CBA25B82C490AA316C863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0704DAF454BC47AA9534AD1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAA67AF7081C4D34B19EC460 /* main */,
+				A25F8D7479C0435AB52EF8CB /* src */,
+				388890D351E24DEF89B9FC84 /* tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		072F39C403E44DC68FC0BB70 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		0EBB66B1E0CA4BC785920E7E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				EB2A55A264124CB9B0905B8B /* Source Files */,
+				907BF122864C40449D5768AE /* Header Files */,
+				19A9EB5EA3504CD688CCE7AC /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/CMakeLists.txt */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		2718C385F75F48C0A319D0DB /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA02CB5DBCBB4CE5B06C4A0D /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3B4C744C9C84489887789C4E = {
+			isa = PBXGroup;
+			children = (
+				6C7DBBF7C6474F478D3B5AF4 /* main */,
+				711B9F6329404F2B845BF3CC /* ALL_BUILD */,
+				0EBB66B1E0CA4BC785920E7E /* src */,
+				595D41216CC444258DBC75AA /* tests */,
+				0704DAF454BC47AA9534AD1B /* Products */,
+				3BAE35D641014DAE8E379E61 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3BAE35D641014DAE8E379E61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		595D41216CC444258DBC75AA /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				E77AEB8B2E4147E9993EFF1D /* Source Files */,
+				CEDE4B7545D14562A0E691C8 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/tests/CMakeLists.txt */,
+			);
+			name = tests;
+			sourceTree = "<group>";
+		};
+		6C7DBBF7C6474F478D3B5AF4 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				2718C385F75F48C0A319D0DB /* Source Files */,
+				1ED7C79DC2C04EF8B2D73BF2 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/CMakeLists.txt */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		711B9F6329404F2B845BF3CC /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				072F39C403E44DC68FC0BB70 /* CMake Rules */,
+				F43DA416FCAD4FAFAE4B4BD3 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		907BF122864C40449D5768AE /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				22435B70FA044772A6133BC6 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/fight.h */,
+				10554E6F6A484D418AE39016 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/hero.h */,
+				9CC1D103EE8146E4AD51BFFC /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/powers.h */,
+				BA6E2A09D40F494AB15808F8 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/strlib.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		E77AEB8B2E4147E9993EFF1D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFBB1185F79F4CA1A2411C97 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/tests/Catch.cpp */,
+				20328C5696DA412E9C625E41 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/tests/studentTests.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		EB2A55A264124CB9B0905B8B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A62BA044D480463A894AB86F /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/fight.cpp */,
+				9F53CB6646594AFA9FD65437 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/hero.cpp */,
+				3350854F9276407F80E450AE /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/powers.cpp */,
+				89D4D5F935E948968FFDB626 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/strlib.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF160123F27642D9A8AFF889 /* src */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5201C3A566A406BA8003B03 /* Build configuration list for PBXNativeTarget "src" */;
+			buildPhases = (
+				8FB4A1CBDFC4442AA956DCDF /* Sources */,
+				844CBA25B82C490AA316C863 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECCCF4D185E742DB8CB4FEF3 /* PBXTargetDependency */,
+			);
+			name = src;
+			productName = src;
+			productReference = A25F8D7479C0435AB52EF8CB /* src */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B842CF4B17F14BF7995F7E80 /* main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F8B16C073604016A3097A23 /* Build configuration list for PBXNativeTarget "main" */;
+			buildPhases = (
+				E5E95B1BEE944001888D5D73 /* Sources */,
+				08A8D48A86EB458A965CD950 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7B9849712534F69B37A4716 /* PBXTargetDependency */,
+				52587BA248C5440EBEBF0039 /* PBXTargetDependency */,
+			);
+			name = main;
+			productName = main;
+			productReference = BAA67AF7081C4D34B19EC460 /* main */;
+			productType = "com.apple.product-type.tool";
+		};
+		DDC5949748A34C0DB3F671BB /* tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8760C22E3FCC44B8959DFB0B /* Build configuration list for PBXNativeTarget "tests" */;
+			buildPhases = (
+				75FD0E3FE2054FDBBD3612E1 /* Sources */,
+				0AF567571BEB4B83A8695F33 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2BD41A7FE32462FA5EAEB47 /* PBXTargetDependency */,
+				A9BF93D618354C02B96591EE /* PBXTargetDependency */,
+			);
+			name = tests;
+			productName = tests;
+			productReference = 388890D351E24DEF89B9FC84 /* tests */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1980A707AB5E49A9AEB61251 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1340;
+			};
+			buildConfigurationList = 846B6319D6D04BE983525859 /* Build configuration list for PBXProject "HW02" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				A2BC0C5B3E084A148B70724E /* Debug */,
+				BFE467908858494EA4FA6D49 /* Release */,
+				4F0BE780B58F464CAADF1CCE /* MinSizeRel */,
+				D4A407AD0EAD4E119FD0EA0A /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 3B4C744C9C84489887789C4E;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				F8ADC34FF8B348CD968F6B33 /* ALL_BUILD */,
+				FAC5CFF372304DB08A641B1F /* ZERO_CHECK */,
+				B842CF4B17F14BF7995F7E80 /* main */,
+				AF160123F27642D9A8AFF889 /* src */,
+				DDC5949748A34C0DB3F671BB /* tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6453BE91368CE4538DC0CA32 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/irisjeong/Documents/GitHub/hw02-iris-jeong
+  make -f /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/irisjeong/Documents/GitHub/hw02-iris-jeong
+  make -f /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/irisjeong/Documents/GitHub/hw02-iris-jeong
+  make -f /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/irisjeong/Documents/GitHub/hw02-iris-jeong
+  make -f /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A5FDDD0D62C2FC58A55C476E /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/irisjeong/Documents/GitHub/hw02-iris-jeong
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/irisjeong/Documents/GitHub/hw02-iris-jeong
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/irisjeong/Documents/GitHub/hw02-iris-jeong
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/irisjeong/Documents/GitHub/hw02-iris-jeong
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75FD0E3FE2054FDBBD3612E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45AB09B862347439BAF8154 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/tests/Catch.cpp */,
+				54CDF47D40434F4A869D248D /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/tests/studentTests.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FB4A1CBDFC4442AA956DCDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B6DED3D14A4AFF864DA1F9 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/fight.cpp */,
+				589385EA0BDE410AACC86C42 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/hero.cpp */,
+				CFA1EE70BD0B4D9AA15FE34C /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/powers.cpp */,
+				D84237FFB225435B86CA5E62 /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/strlib.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E95B1BEE944001888D5D73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C707D51E097B4F6799F013BE /* /Users/irisjeong/Documents/GitHub/hw02-iris-jeong/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52587BA248C5440EBEBF0039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF160123F27642D9A8AFF889 /* src */;
+			targetProxy = 585F9D12E41D4CBBA41D97BF /* PBXContainerItemProxy */;
+		};
+		7BAF5B4A259549F2BD85A0D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B842CF4B17F14BF7995F7E80 /* main */;
+			targetProxy = A1E3D36B137948DBBFC917E5 /* PBXContainerItemProxy */;
+		};
+		9D4E6FAAC350474AB0E89026 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF160123F27642D9A8AFF889 /* src */;
+			targetProxy = 90E0D050A4E542F3AEE1CD6B /* PBXContainerItemProxy */;
+		};
+		A2BD41A7FE32462FA5EAEB47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC5CFF372304DB08A641B1F /* ZERO_CHECK */;
+			targetProxy = B5BCB1187F0D4FAE861C4793 /* PBXContainerItemProxy */;
+		};
+		A9BF93D618354C02B96591EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF160123F27642D9A8AFF889 /* src */;
+			targetProxy = CD036E0103DD4376971BA685 /* PBXContainerItemProxy */;
+		};
+		D7B9849712534F69B37A4716 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC5CFF372304DB08A641B1F /* ZERO_CHECK */;
+			targetProxy = 45536FD57940429097D3B258 /* PBXContainerItemProxy */;
+		};
+		DA50F13D49084BE79AAE2AB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC5CFF372304DB08A641B1F /* ZERO_CHECK */;
+			targetProxy = 88FF9C89F1A148C7AB8460CD /* PBXContainerItemProxy */;
+		};
+		ECCCF4D185E742DB8CB4FEF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC5CFF372304DB08A641B1F /* ZERO_CHECK */;
+			targetProxy = 350529368E494058BCF1E2D9 /* PBXContainerItemProxy */;
+		};
+		EE922D2DDCD24B709F007CF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDC5949748A34C0DB3F671BB /* tests */;
+			targetProxy = 5438882B98314254AB2354B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		064EF1AA7DAB4A4A82CD6A9C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/build";
+			};
+			name = MinSizeRel;
+		};
+		11DC09BFB0BF4984981B4157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		1223F06071D04C479A66EB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/build";
+			};
+			name = Debug;
+		};
+		1D4819207D074F4C884A770D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/irisjeong/Documents/GitHub/hw02-iris-jeong";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2A5B7DCFC16041E7AA8DCED1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/MinSizeRel/libsrc.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		327FDA6B5C5140C88BDFB12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/Release/libsrc.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/irisjeong/Documents/GitHub/hw02-iris-jeong";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		582727A2293E4524BCE4A74D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/Release/libsrc.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		61C648FA6E2740CBBCF03FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/irisjeong/Documents/GitHub/hw02-iris-jeong";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		69473E19A82F46289FF38882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/Debug/libsrc.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/irisjeong/Documents/GitHub/hw02-iris-jeong";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6B5321F29A654F5EAB9F819C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/MinSizeRel/libsrc.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/irisjeong/Documents/GitHub/hw02-iris-jeong";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6F8C78E68DD6489488755BA1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7741A83222FF426B9967D803 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/irisjeong/Documents/GitHub/hw02-iris-jeong";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8D464678F99F462E969F524D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/build";
+			};
+			name = Release;
+		};
+		ACB3F4EC155A4115A2363FE6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/irisjeong/Documents/GitHub/hw02-iris-jeong";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B47B6770713F4EA99335D356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/irisjeong/Documents/GitHub/hw02-iris-jeong";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B7AD0CE396EE41C683F46297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/irisjeong/Documents/GitHub/hw02-iris-jeong";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		CD781D0C399B4C858A4A04EE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/irisjeong/Documents/GitHub/hw02-iris-jeong";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D162A27AFD754D4EBE8AFE8D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/RelWithDebInfo/libsrc.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D99048E1CC524C5196767F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/irisjeong/Documents/GitHub/hw02-iris-jeong";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DFFD75D47BE54A6688FD2BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EA11A6B8DE014205B1A85816 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/build";
+			};
+			name = RelWithDebInfo;
+		};
+		EC4A7376D7D241C2AB1F1F73 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/RelWithDebInfo/libsrc.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/irisjeong/Documents/GitHub/hw02-iris-jeong";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FD49CE63B7FE4CD0825137BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src/Debug/libsrc.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		FF2C9FBD1FF54F15B5BC758A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F8B16C073604016A3097A23 /* Build configuration list for PBXNativeTarget "main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69473E19A82F46289FF38882 /* Debug */,
+				327FDA6B5C5140C88BDFB12E /* Release */,
+				6B5321F29A654F5EAB9F819C /* MinSizeRel */,
+				EC4A7376D7D241C2AB1F1F73 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1BF23F179EB44A76BCB35DF0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D99048E1CC524C5196767F91 /* Debug */,
+				B7AD0CE396EE41C683F46297 /* Release */,
+				1D4819207D074F4C884A770D /* MinSizeRel */,
+				ACB3F4EC155A4115A2363FE6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		846B6319D6D04BE983525859 /* Build configuration list for PBXProject "HW02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1223F06071D04C479A66EB68 /* Debug */,
+				8D464678F99F462E969F524D /* Release */,
+				064EF1AA7DAB4A4A82CD6A9C /* MinSizeRel */,
+				EA11A6B8DE014205B1A85816 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8760C22E3FCC44B8959DFB0B /* Build configuration list for PBXNativeTarget "tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD49CE63B7FE4CD0825137BB /* Debug */,
+				582727A2293E4524BCE4A74D /* Release */,
+				2A5B7DCFC16041E7AA8DCED1 /* MinSizeRel */,
+				D162A27AFD754D4EBE8AFE8D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8CA3668974084E34A196EF1E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61C648FA6E2740CBBCF03FFF /* Debug */,
+				B47B6770713F4EA99335D356 /* Release */,
+				7741A83222FF426B9967D803 /* MinSizeRel */,
+				CD781D0C399B4C858A4A04EE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F5201C3A566A406BA8003B03 /* Build configuration list for PBXNativeTarget "src" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11DC09BFB0BF4984981B4157 /* Debug */,
+				DFFD75D47BE54A6688FD2BAD /* Release */,
+				FF2C9FBD1FF54F15B5BC758A /* MinSizeRel */,
+				6F8C78E68DD6489488755BA1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1980A707AB5E49A9AEB61251 /* Project object */;
+}

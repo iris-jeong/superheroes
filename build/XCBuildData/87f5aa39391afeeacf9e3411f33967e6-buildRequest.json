@@ -1,0 +1,70 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "180149c74f8bf1c04eceedbe7cf1b0fae0e2a83396194f911eb5111ab0789d85"
+    },
+    {
+      "guid" : "180149c74f8bf1c04eceedbe7cf1b0fab2b04de5a5ac37e65c91303829a5cbf6"
+    },
+    {
+      "guid" : "180149c74f8bf1c04eceedbe7cf1b0fa5925148d48728cae818f6ff723463f11"
+    },
+    {
+      "guid" : "180149c74f8bf1c04eceedbe7cf1b0faed4585b3a0844d48d73c03c46dccc7ca"
+    },
+    {
+      "guid" : "180149c74f8bf1c04eceedbe7cf1b0faedaf00ec2f7eac227e3822d36889eacb"
+    }
+  ],
+  "containerPath" : "/Users/irisjeong/Documents/GitHub/hw02-iris-jeong/HW02.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/irisjeong/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/irisjeong/Library/Developer/Xcode/DerivedData/HW02-aewykqymjnvylacozqxvcmpoqbbe/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/irisjeong/Library/Developer/Xcode/DerivedData/HW02-aewykqymjnvylacozqxvcmpoqbbe/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

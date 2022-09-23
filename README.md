@@ -1,11 +1,5 @@
-# ITP 365 HW02 - Fall 2022 #
+# Superhero Program #
 
-## Student information... ##
-Name: Iris Jeong
+Program that fights superheroes against one another.
 
-Email: irisjeon@usc.edu
-
-Platform: [MAC]
-
-### Notes ###
 
